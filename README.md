@@ -2,8 +2,6 @@
 
 <img width="1920" height="1080" alt="Screenshot from 2025-09-05 15-41-09" src="https://github.com/user-attachments/assets/422687d8-9e88-4198-88f7-b38908ceec85" />
 
-## Como inicializar
-
 ## Sobre o Template Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
