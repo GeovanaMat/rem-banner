@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {  
+    --primaria: var(--cor-primaria);
+    --secundaria: var(--cor-secundaria);
+    --primaria-hover: var(--cor-primaria-hover);
+    --terciaria: var(--cor-terciaria);
+    --secundaria-borda: var(--cor-secundaria-borda);
+}
+
+/* Variáveis globais */
+:root {
+    --cor-primaria: #07081C;
+    --cor-primaria-hover: #151849;
+    --cor-secundaria: #e2e2f8;
+    --cor-terciaria:#fdaff3;
+    --cor-secundaria-borda: #d6d6e079;
+    font-size: small;
+}
+
+.inverted {
+	clip-path: path("M44,0H125A35,35 0,0,1 160,35L160,35A35,35 0,0,0 195,70L215,70A35,35 0,0,1 250,105V206A44,44 0,0,1 206,250H44A44,44 0,0,1 0,206V44A44,44 0,0,1 44,0Z");
+	width: 250px;
+	height: 250px;
+	/* background-color: #5e5c64; */
+	aspect-ratio: 1 / 1;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 1.0s ease-out forwards;
+}
+
+.animate-slide-up-1 {
+  animation: slide-up 2.5s ease-out forwards;
+}
+.animate-slide-up-2 {
+  animation: slide-up 3.5s ease-out forwards;
+}
+.animate-slide-up-3 {
+  animation: slide-up 4.5s ease-out forwards;
+}
